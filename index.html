@@ -1,15 +1,48 @@
 <html>
 <head>
     <title>PAGINA DE PRACTICAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/myStyles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
-    <div>
-        <a class="color2 tam2 letra1" href="www.ritzbolivia.com">Siguenos en nuestra Pagina Oficial: www.ritzbolivia.com</a>
+    <ul class="letra1 tam4">
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="formReserva.html">Registro Web</a>
+        </li>
+        <li>
+            <a href="">Gastronomia</a>
+        </li>
+        <li>
+            <a href="">Galeria</a>
+        </li>
+        <li>
+            <a href="">Suites</a>
+        </li>
+        <li>
+            <a href="">Comodidades</a>
+        </li>
+        <li style="float:right">
+            <a class="active" href="">Nosotros</a>
+        </li>
+        <li style="float:right">
+            <a class="active" href="">Contacto</a>
+        </li>
+        <li style="float:right">
+            <a class="active" href="">Medidades de Seguridad</a>
+        </li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>   
+    </ul>
+    <div class="tam2 letra2 size6 color2" >
+        <a href="www.ritzbolivia.com">Siguenos en nuestra Pagina Oficial: www.ritzbolivia.com</a>
     </div>
+    
     <h1 class="color1 fondo1 letra1 tam1 size1">BIENVENIDOS  RITZ APART  HOTEL</h1>
     <h2 class="fondo1 color2 tam3 size2 letra1">5 estrellas en La Paz</h2>
     <div class="color1 fondo2 tam4 size3 letra2">
@@ -27,10 +60,18 @@
         
 
 
-    <div class="fondo1 tam2 size4 letra1">
+    <div class="fondo1 tam2 size4 letra2 color2">
         <a href="formReserva.html">Haga clik aqui para RESERVAR</a>
     </div>
-
-
+<script>
+    function myFunction(){
+        var x=document.getElementById(myli);
+        if (x.className==="li") {
+            x.className+="responsive";
+        } else {
+            x.document="li";
+        }
+    }
+</script> 
 </body>
 </html>

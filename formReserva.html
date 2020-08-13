@@ -2,11 +2,44 @@
 <html>
 <head>
     <title>Formulario de Reserva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/myStyles.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
+    <ul class="letra2 ">
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="formReserva.html">Registro Web</a>
+        </li>
+        <li>
+            <a href="">Gastronomia</a>
+        </li>
+        <li>
+            <a href="">Galeria</a>
+        </li>
+        <li>
+            <a href="">Suites</a>
+        </li>
+        <li>
+            <a href="">Comodidades</a>
+        </li>
+        <li style="float:right">
+            <a class="active" href="">Nosotros</a>
+        </li>
+        <li style="float:right">
+            <a class="active" href="">Contacto</a>
+        </li>
+        <li style="float:right">
+            <a class="active" href="">Medidades de Seguridad</a>
+        </li>
+    </ul>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>   
         <div class="color1 fondo1 letra1 tam2 size5">
             <h1>FORMULARIO DE RESERVA</h1>
         </div>
@@ -72,6 +105,15 @@
             </div>
         </div>
        
-    
+        <script>
+            function myFunction(){
+                var x=document.getElementById(myli);
+                if (x.className==="li") {
+                    x.className+="responsive";
+                } else {
+                    x.document="li";
+                }
+            }
+        </script> 
 </body>
 </html>
